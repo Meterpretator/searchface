@@ -8,7 +8,7 @@ import codecs
 
 if __name__ == '__main__':
     # Заходим ВКонтакте под своим логином
-    vk_session = vk_api.VkApi('89777993578', 'xuesos69')
+    vk_session = vk_api.VkApi('login', 'password')
     vk_session.auth()
     vk = vk_session.get_api()
 
