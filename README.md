@@ -5,10 +5,15 @@
 Скрипты протестированы на Parrot OS и требуют установки модулей Python которые есть в разделах import у скриптов
 
 Установка dlib
+
 sudo apt-get install libx11-dev
+
 git clone https://github.com/davisking/dlib.git
+
 cd dlib/
+
 python setup.py install
+
 pip3 install dlib
 
 Для того чтобы скрипты заработали клонируйте этот репозиторий и удалите из подкаталогов файлы README.MD - иначе они будут мешать работе скриптов
